@@ -21,6 +21,8 @@ pub use error::CBError;
 pub use private::Private;
 pub use public::Public;
 
+pub use uuid::Uuid as Uuid;
+
 pub const MAIN_URL: &str = "https://api.coinbase.com/v2";
 
 pub type DateTime = chrono::DateTime<chrono::Utc>;
